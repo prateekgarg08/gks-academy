@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "bootstrap": "^5.1.3",
-    "node-sass": "^7.0.1"
+    "node-sass": "^7.0.1",
+    "owl.carousel": "^2.3.4"
   }
 }

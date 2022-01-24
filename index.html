@@ -9,17 +9,18 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+
+
+    <link href="./node_modules/owl.carousel/dist/assets/owl.carousel.css">
+    <link href="./node_modules/owl.carousel/dist/assets/owl.theme.green.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    
+
     <title>Hello, world!</title>
     <!-- <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
@@ -33,6 +34,13 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="https://kit.fontawesome.com/28a8b9ce99.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
+
+
+    
   </head>
   <body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
@@ -146,178 +154,129 @@
           <button type="button" class="hello-btn col-lg-2">Courses</button>
         </div>
       </div>
-      <div class="owl-carousel owl-theme container">
-        <div class="item">
-          <div class="card" style="width: 18rem">
-            <img
-              src="./images/course.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </p>
+      <div class="container">
+
+        <div class="owl-carousel owl-theme" id="course-carousel">
+          <div class="item">
+            <div class="course">
+              <div class="course-banner">
+                <img src="images/vatsacademyudaipur1611412138.jpg" alt="" />
+                <div class="course-tag">Managment</div>
+              </div>
+              <div class="course-content">
+                <h3>S.I. (Sub Inspector)</h3>
+                <p>S.I. (Sub Inspector)</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="item">
-          <div class="card" style="width: 18rem">
-            <img
-              src="./images/course.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </p>
+  
+          <div class="item">
+            <div class="course">
+              <div class="course-banner">
+                <img src="images/vatsacademyudaipur1611412154.jpg" />
+                <div class="course-tag">Managment</div>
+              </div>
+              <div class="course-content">
+                <h3>Ras Foundation</h3>
+                <p>Ras Foundation</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="item">
-          <div class="card" style="width: 18rem">
-            <img
-              src="./images/course.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </p>
+  
+          <div class="item">
+            <div class="course">
+              <div class="course-banner">
+                <img src="images/vatsacademyudaipur1612524348.jpg" />
+                <div class="course-tag">Managment</div>
+              </div>
+              <div class="course-content">
+                <h3>Patwaar</h3>
+                <p>Patwaar</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="item">
-          <div class="card" style="width: 18rem">
-            <img
-              src="./images/course.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </p>
+  
+          <div class="item">
+            <div class="course">
+              <div class="course-banner">
+                <img src="images/vatsacademyudaipur1611412138.jpg" alt="" />
+                <div class="course-tag">Managment</div>
+              </div>
+              <div class="course-content">
+                <h3>S.I. (Sub Inspector)</h3>
+                <p>S.I. (Sub Inspector)</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="item">
-          <div class="card" style="width: 18rem">
-            <img
-              src="./images/course.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </p>
+  
+          <div class="item">
+            <div class="course">
+              <div class="course-banner">
+                <img src="images/vatsacademyudaipur1611412154.jpg" />
+                <div class="course-tag">Managment</div>
+              </div>
+              <div class="course-content">
+                <h3>Ras Foundation</h3>
+                <p>Ras Foundation</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="item">
-          <div class="card" style="width: 18rem">
-            <img
-              src="./images/course.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </p>
+  
+          <div class="item">
+            <div class="course">
+              <div class="course-banner">
+                <img src="images/vatsacademyudaipur1612524348.jpg" />
+                <div class="course-tag">Managment</div>
+              </div>
+              <div class="course-content">
+                <h3>Patwaar</h3>
+                <p>Patwaar</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="item">
-          <div class="card" style="width: 18rem">
-            <img
-              src="./images/course.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </p>
+  
+          <div class="item">
+            <div class="course">
+              <div class="course-banner">
+                <img src="images/vatsacademyudaipur1611412138.jpg" alt="" />
+                <div class="course-tag">Managment</div>
+              </div>
+              <div class="course-content">
+                <h3>S.I. (Sub Inspector)</h3>
+                <p>S.I. (Sub Inspector)</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="item">
-          <div class="card" style="width: 18rem">
-            <img
-              src="./images/course.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </p>
+  
+          <div class="item">
+            <div class="course">
+              <div class="course-banner">
+                <img src="images/vatsacademyudaipur1611412154.jpg" />
+                <div class="course-tag">Managment</div>
+              </div>
+              <div class="course-content">
+                <h3>Ras Foundation</h3>
+                <p>Ras Foundation</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="item">
-          <div class="card" style="width: 18rem">
-            <img
-              src="./images/course.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="card" style="width: 18rem">
-            <img
-              src="./images/course.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="card" style="width: 18rem">
-            <img
-              src="./images/course.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="card" style="width: 18rem">
-            <img
-              src="./images/course.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </p>
+  
+          <div class="item">
+            <div class="course">
+              <div class="course-banner">
+                <img src="images/vatsacademyudaipur1612524348.jpg" />
+                <div class="course-tag">Managment</div>
+              </div>
+              <div class="course-content">
+                <h3>Patwaar</h3>
+                <p>Patwaar</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div class="text-center">
-        <button class="hello-btn">All course</button>
+        <button class="hello-btn"><span class="iconify" data-icon="bx:bx-show-alt"></span>All course</button>
       </div>
     </div>
 
@@ -354,44 +313,165 @@
           <button type="button" class="hello-btn col-lg-2">Courses</button>
         </div>
       </div>
-      <div class="container cc-slider">
-        <div class="row">
-          <a href="#" class="cc-card col-lg-3">
-            <div class="cc-card-inner">
-              <div class="cc-card-logo">
-                <img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/code-1024.png" alt="" />
+      <div class="container">
+        <div class="owl-carousel owl-theme" id="cc-carousel">
+          <div class="item">
+            <div class="course-category" style="background-image: url('./images/categories/engineering.jpg')">
+              <div class="icon">
+                <i class="bx bx-code-alt"></i>
               </div>
-              <p>Engineering</p>
+              <h3>Engineering</h3>
+              <span>1 COURSES</span>
+              <a href="#" class="learn-more">Learn More</a>
             </div>
-          </a>
-          <a href="#" class="cc-card col-lg-3">
-            <div class="cc-card-inner">
-              <div class="cc-card-logo">
-                <img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/code-1024.png" alt="" />
+          </div>
+  
+          <div class="item">
+            <div class="course-category" style="background-image: url('./images/categories/managment.jpg')">
+              <div class="icon">
+                <i class="bx bx-code-alt"></i>
               </div>
-              <p>Engineering</p>
+              <h3>Managment</h3>
+              <span>1 COURSES</span>
+              <a href="#" class="learn-more">Learn More</a>
             </div>
-          </a>
-          <a href="#" class="cc-card col-lg-3 offset-">
-            <div class="cc-card-inner">
-              <div class="cc-card-logo">
-                <img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/code-1024.png" alt="" />
+          </div>
+  
+          <div class="item">
+            <div class="course-category" style="background-image: url(' ./images/categories/cs.jpg')">
+              <div class="icon">
+                <i class="bx bx-code-alt"></i>
               </div>
-              <p>Engineering</p>
+              <h3>Computer Science</h3>
+              <span>1 COURSES</span>
+              <a href="#" class="learn-more">Learn More</a>
             </div>
-          </a>
-          <a href="#" class="cc-card col-lg-3">
-            <div class="cc-card-inner">
-              <div class="cc-card-logo">
-                <img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/code-1024.png" alt="" />
+          </div>
+  
+          <div class="item">
+            <div class="course-category" style="background-image: url('./images/categories/agriculture.jpg')">
+              <div class="icon">
+                <i class="bx bx-code-alt"></i>
               </div>
-              <p>Engineering</p>
+              <h3>Agriculture</h3>
+              <span>1 COURSES</span>
+              <a href="#" class="learn-more">Learn More</a>
             </div>
-          </a>
+          </div>
+  
+          <div class="item">
+            <div class="course-category" style="background-image: url('./images/categories/education.jpg')">
+              <div class="icon">
+                <i class="bx bx-code-alt"></i>
+              </div>
+              <h3>Education</h3>
+              <span>1 COURSES</span>
+              <a href="#" class="learn-more">Learn More</a>
+            </div>
+          </div>
+  
+          <div class="item">
+            <div class="course-category" style="background-image: url('./images/categories/Law.jpg')">
+              <div class="icon">
+                <i class="bx bx-code-alt"></i>
+              </div>
+              <h3>Law</h3>
+              <span>1 COURSES</span>
+              <a href="#" class="learn-more">Learn More</a>
+            </div>
+          </div>
+  
+          <div class="item">
+            <div class="course-category" style="background-image: url('./images/categories/mass-media.jpg')">
+              <div class="icon">
+                <i class="bx bx-code-alt"></i>
+              </div>
+              <h3>Mass Media</h3>
+              <span>1 COURSES</span>
+              <a href="#" class="learn-more">Learn More</a>
+            </div>
+          </div>
+  
+          <div class="item">
+            <div class="course-category" style="background-image: url('./images/categories/nursing.jpg')">
+              <div class="icon">
+                <i class="bx bx-code-alt"></i>
+              </div>
+              <h3>Nursing</h3>
+              <span>1 COURSES</span>
+              <a href="#" class="learn-more">Learn More</a>
+            </div>
+          </div>
+  
+          <div class="item">
+            <div class="course-category" style="background-image: url('./images/categories/pharmacy.jpg')">
+              <div class="icon">
+                <i class="bx bx-code-alt"></i>
+              </div>
+              <h3>Pharmacy</h3>
+              <span>1 COURSES</span>
+              <a href="#" class="learn-more">Learn More</a>
+            </div>
+          </div>
+  
+          <div class="item">
+            <div class="course-category" style="background-image: url('./images/categories/proffesional.jpg')">
+              <div class="icon">
+                <i class="bx bx-code-alt"></i>
+              </div>
+              <h3>Proffesional</h3>
+              <span>1 COURSES</span>
+              <a href="#" class="learn-more">Learn More</a>
+            </div>
+          </div>
+  
+          <div class="item">
+            <div class="course-category" style="background-image: url('./images/categories/science.jpg')">
+              <div class="icon">
+                <i class="bx bx-code-alt"></i>
+              </div>
+              <h3>Science</h3>
+              <span>1 COURSES</span>
+              <a href="#" class="learn-more">Learn More</a>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </div>
 
+    <div class="latest-selection">
+      <div class="container text-center">
+        <h1>Latest Selection's</h1>
+        <div class="owl-carousel owl-theme" id="sel-carousel">
+          <div class="item"><img src="./images/selection/1.png" alt="" /></div>
+          <div class="item"><img src="./images/selection/2.png" alt="" /></div>
+          <div class="item"><img src="./images/selection/3.png" alt="" /></div>
+          <div class="item"><img src="./images/selection/4.png" alt="" /></div>
+          <div class="item"><img src="./images/selection/5.png" alt="" /></div>
+          <div class="item"><img src="./images/selection/6.png" alt="" /></div>
+          <div class="item"><img src="./images/selection/7.png" alt="" /></div>
+          <div class="item"><img src="./images/selection/8.png" alt="" /></div>
+          <div class="item"><img src="./images/selection/9.png" alt="" /></div>
+          <div class="item"><img src="./images/selection/10.png" alt="" /></div>
+          <div class="item"><img src="./images/selection/11.png" alt="" /></div>
+          <div class="item"><img src="./images/selection/12.png" alt="" /></div>
+          <div class="item"><img src="./images/selection/13.png" alt="" /></div>
+          <div class="item"><img src="./images/selection/14.png" alt="" /></div>
+          <div class="item"><img src="./images/selection/15.png" alt="" /></div>
+          <div class="item"><img src="./images/selection/16.png" alt="" /></div>
+          <div class="item"><img src="./images/selection/17.png" alt="" /></div>
+          <div class="item"><img src="./images/selection/18.png" alt="" /></div>
+          <div class="item"><img src="./images/selection/19.png" alt="" /></div>
+          <div class="item"><img src="./images/selection/20.png" alt="" /></div>
+          <div class="item"><img src="./images/selection/21.png" alt="" /></div>
+          <div class="item"><img src="./images/selection/22.png" alt="" /></div>
+          <div class="item"><img src="./images/selection/23.png" alt="" /></div>
+          <div class="item"><img src="./images/selection/24.png" alt="" /></div>
+        </div>
+      </div>
+    </div>
 
     <div class="meet-instructor">
         <div class="container">
@@ -486,6 +566,54 @@
       
     </div>
 
+    <div class="offer-section">
+      <div class="container-fluid">
+        <div class="section-title text-center">
+          <span class="sub-title">Make Connections</span>
+          <h2>What We Offer For Growth</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut nisi ut aliquip ex ea.
+          </p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="single-offer-box text-center">
+                <div class="icon">
+                  <i class="bx bx-book-reader" style="color: #04135e"></i>
+                </div>
+                <h3>Find your Course</h3>
+                <p>Browse your Course for which you are looking for Preparation</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="single-offer-box text-center">
+                <div class="icon">
+                  <i class="bx bx-target-lock" style="color: #0eb582"></i>
+                </div>
+                <h3>Select your Course</h3>
+                <p>After Choose your Course,Get connect with Counselor or Expert at Gks Academy</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
+              <div class="single-offer-box text-center">
+                <div class="icon">
+                  <i class="bx bxs-thermometer" style="color: #fea116"></i>
+                </div>
+                <h3>Take Admission</h3>
+                <p>Talk to our Counselor and Expert's and Take Admission at GKS Academy.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="parallax"></div>
+    </div>
+
+
     <footer>
       <div class="site-map">
         <div class="container">
@@ -548,7 +676,7 @@
         </div>
       </div>
       <div class="copyright text-center">
-        <img class="cp_logo" src="http://gksacademy.com/uploads/gksacademyy.png" />
+        <img class="cp_logo" src="./images/gksacademy-logo.png" />
         <p>Copyright 2020 GKS ACADEMY| All rights reserved.</p>
       </div>
     </footer>
@@ -556,37 +684,41 @@
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+    
+   
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script>
-      $(".owl-carousel").owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        responsive: {
-          0: {
-            items: 1,
-          },
-          600: {
-            items: 1,
-          },
-          1000: {
-            items: 3,
-          },
-        },
+      $(document).ready(() => {
+        $("#course-carousel").owlCarousel({
+          items: 3,
+          margin: 40,
+          loop: false,
+          nav: true,
+          navText: ['<i class="fas fa-arrow-left"></i>', '<i class="fas fa-arrow-right"></i>'],
+        });
+        $("#cc-carousel").owlCarousel({
+          items: 4,
+          margin: 40,
+          loop: false,
+          dots: false,
+          nav: true,
+          
+          navText : ['<i class="fas fa-arrow-left"></i>', '<i class="fas fa-arrow-right"></i>'],
+        });
+        $("#sel-carousel").owlCarousel({
+          items: 6,
+          margin: 60,
+          loop: true,
+          dots: false,
+          nav: false,
+          autoplay: true,
+          autoplayTimeout: 5000,
+          //  : ['<i class="fas fa-arrow-left"></i>', '<i class="fas fa-arrow-right"></i>'],
+        });
       });
     </script>
+
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!-- <script
