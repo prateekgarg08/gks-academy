@@ -190,3 +190,7 @@
     height: 800px;
   }
 }
+
+.news-card {
+  margin: auto;
+}

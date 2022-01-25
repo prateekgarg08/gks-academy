@@ -516,7 +516,7 @@
 
             <div class="item col-lg-4 col-md-6 col-sm-12">
               
-              <div class="card" style="width: 18rem;">
+              <div class="card news-card" style="width: 18rem;">
                 <img src="./images/news.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <span class="subtitle">By  <a href="#">Admin</a>/</span>
@@ -529,7 +529,7 @@
             </div>
             <div class="item col-lg-4 col-md-6 col-sm-12">
               
-              <div class="card" style="width: 18rem;">
+              <div class="card news-card" style="width: 18rem;">
                 <img src="./images/news.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <span class="subtitle">By  <a href="#">Admin</a>/</span>
@@ -542,7 +542,7 @@
             </div>
             <div class="item col-lg-4 col-md-6 col-sm-12">
               
-              <div class="card" style="width: 18rem;">
+              <div class="card news-card" style="width: 18rem;">
                 <img src="./images/news.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <span class="subtitle">By  <a href="#">Admin</a>/</span>
@@ -564,7 +564,7 @@
 
     <div class="offer-section">
       <div class="container-fluid">
-        <div class="section-title text-center">
+        <div class="section-title">
           <span class="sub-title">Make Connections</span>
           <h2>What We Offer For Growth</h2>
           <p>
@@ -573,7 +573,7 @@
           </p>
         </div>
         <div class="container">
-          <div class="row">
+          <div class="row text-center ">
             <div class="col-lg-4 col-md-6 col-sm-6">
               <div class="single-offer-box text-center">
                 <div class="icon">
@@ -694,7 +694,8 @@
           responsive:{
             0:{
                 items:1,
-                nav:true
+          nav: false,
+                
             },
             600:{
                 items:2,
@@ -702,8 +703,7 @@
             },
             1000:{
                 items:3,
-                nav:true,
-                loop:false
+                
             }
         } 
         });
@@ -718,10 +718,12 @@
           responsive:{
             0:{
                 items:1,
+          nav: false,
                 
             },
             600:{
                 items:2,
+          nav: false,
             
             },
             1000:{
